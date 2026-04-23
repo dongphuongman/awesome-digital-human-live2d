@@ -2,12 +2,12 @@
 **打造有温度的数字人**  
 **给数字人注入灵魂**  
 ---  
-🎉🎉🎉 社区官网公测版本正式发布: https://www.light4ai.com  
+🎉🎉🎉 社区官网公测版本正式发布：https://www.light4ai.com  
+🎉🎉🎉 社区智能客服（应用本项目）：https://www.light4ai.com/sentio/cc3bdfaf-2006-4f5d-90f5-81b9ec07fefd  
 [B站视频-社区官网介绍](https://www.bilibili.com/video/BV1YN72z7EBz)  
 官网在开源版本基础上额外支持(详情见[操作指南](https://light4ai.feishu.cn/docx/XmGFd5QJwoBdDox8M7zcAcRJnje)):  
 * 个人应用管理  
 * 内置服务接入  
-* 限定主题  
 * 应用分享(链接分享、网页嵌入分享)
 ###### *社区业余时间发电，你的star是我们最大的动力，感谢！*
 ---  
@@ -44,41 +44,6 @@ PC端页面预览：
 * FastgptAgent：接入fastgpt的服务  
 * CozeAgent：接入coze的服务
 * OpenaiAgent：接入适配openai接口的服务  
-
-## 版本记录
-> ### v1.0.0
-**界面简约，注重模块扩展性**
-* [v1.0.0 - 2024-06-25](https://github.com/wan-h/awesome-digital-human-live2d/tree/v1.0.0)
-  * 前端架构：react + antD
-  * 后端架构：fastapi
-  * ASR已接入：baiduAPI、googleAPI
-  * LLM已接入：baiduAPI、openaiAPI
-  * TTS已接入：baiduAPI、edgeAPI
-  * Agent支持：repeater(复读机)、dialogue(对话)
-  * 人物类型支持：女友（1）、心理师（1）、素人（11）
-> ### v2.0.0
-**拥抱Dify生态，打造自己的数字人灵魂**
-* [v2.0.0 - 2024-08-08](https://github.com/wan-h/awesome-digital-human-live2d/tree/v2.0.0)
-  * 前端页面全面升级：nextjs + nextui + tailwind
-  * 前端页面兼容移动端访问
-  * 前端支持两种交互模式：聊天模式、数字人模式
-  * 前端支持人物模型和背景切换以及个人定制扩展
-  * Agent支持：difyAgent（ASR、TTS均可接入Dify）、FastGPTAgent、OpenaiAgent
-> ### v3.0.0
-**强化交互体验**
-* [v3.0.0 - 2025-06-01](https://github.com/wan-h/awesome-digital-human-live2d/tree/main)
-  * 前端页面全面升级：nextjs + heroui + tailwind
-  * 支持动态背景
-  * 沉浸模式（实时交互、对话打断等等直接交互方式优化）
-  * 支持流式引擎([协议文档](./docs/streaming_protocol.md))
-    * FunASR streaming(在沉浸模式可选)  
-  * Agent扩展支持：CozeAgent（ASR、TTS均可接入Coze）
-
-## TODOList
-- [ ] rtc音视频流支持
-- [ ] 跨模态交互支持(麦克风/摄像头)
-- [ ] 人物模型AI生成尝试
-- [ ] 情感控制人物表情动作支持
 
 ## 部署&开发
 [部署说明](./docs/deploy_instrction.md)  
@@ -121,7 +86,8 @@ PC端页面预览：
 * 源码中涉及到的所有库作者
 
 ## 社区联系
-**扫码请备注 ADH**    
-| 商务合作 | 兴趣小组 |
-| --- | --- |
-| ![](assets/wechat_2.png) | ![](assets/wechat_1.png) |
+**扫码请备注 ADH**   
+**😘非常感谢您的捐赠，您的捐赠将用于沐光而行开源社区运营，我们会越做越好滴！灰常感谢！！！**   
+| 商务合作 | 兴趣小组 | 社区捐赠 |
+| --- | --- | --- |
+| ![](assets/wechat_2.png) | ![](assets/wechat_1.png) | ![](assets/donate.png) |
