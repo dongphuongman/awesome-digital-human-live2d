@@ -14,7 +14,7 @@ RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories
 RUN apk update && apk add --no-cache python3 make gcc g++ musl-dev linux-headers
 
 # 安装npm依赖库
-RUN npm install -g pnpm \
+RUN npm install -g pnpm@9 \
     && CI=true pnpm install \
     && pnpm run build
 
